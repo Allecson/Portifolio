@@ -1,5 +1,5 @@
 import '../styles/components/MainContents.sass'
-import Avatar from "../src/img/Alecson.jpeg"
+import Avatar from "../img/Alecson.jpeg"
 const MainContents = () =>{
     return <div id='div-main'>
             <img src={Avatar} id="alecson"></img>
