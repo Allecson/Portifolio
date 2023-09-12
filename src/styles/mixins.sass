@@ -1,0 +1,36 @@
+@mixin flex-center
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 1.5rem 3rem
+
+@mixin ul-flex
+    display: flex
+    gap: 3rem
+
+@mixin card-grid
+    display: grid
+    grid-template-columns:1fr 1fr 1fr
+    margin: 0 auto
+    justify-items: center
+@mixin flex-column
+    display: flex
+    flex-direction: column
+    
+
+@mixin laptop
+    @media( max-width: 1024px )
+        @content
+
+@mixin tablet
+    @media( max-width: 768px )
+        @content  
+
+@mixin mobile
+    @media( max-width: 425px )
+        @content                  
+        
+@mixin icons
+    @media ( max-width: 650px  )
+        @content    
+        

@@ -1,0 +1,40 @@
+@use '../mixins'
+.languages
+    @include mixins.card-grid
+    
+   
+    
+    
+    
+    .languages-icon
+        padding-left: 5rem 
+        font-size: 100px
+        @include mixins.icons
+            font-size: 60px
+            padding-left: 2rem 
+        @include mixins.mobile
+            font-size:40px  
+            padding-left: 1rem      
+
+        &:hover
+          transition: .4s  
+          transform: translate(0,8px)  
+         
+    #html
+        svg       
+            color:#e44d26
+    #css
+        svg       
+            color:#1572b6
+    #javascript
+        svg       
+            color:#f8dd44
+    #mysql
+        svg       
+            color:#214f6b
+    #react
+        svg       
+            color:#61dbfb
+    #sass
+        svg       
+            color:#cf6c9c                                                            

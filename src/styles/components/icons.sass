@@ -1,0 +1,20 @@
+@use '../variables'
+@use '../mixins'
+
+#social-medias
+    @include mixins.flex-center
+    gap: 1rem
+    font-size: 1.25rem
+    @include mixins.laptop
+        font-size: 1rem
+    @include mixins.tablet
+        display: none  
+         
+
+    a
+        color: variables.$text-color
+
+        :hover
+            color: variables.$icon-color
+
+    

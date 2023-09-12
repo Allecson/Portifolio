@@ -1,0 +1,95 @@
+@use '../variables'
+@use '../mixins'
+.icon
+    position: absolute
+    z-index: 4
+    right: 1%
+    width: fit-content
+    height: 44px
+    cursor: pointer
+    display: none
+    @include mixins.tablet
+        display: block
+
+
+
+    .hamburguer
+        top: 0%
+        right: 10%
+        width: 30px
+        height: 5px
+        background: variables.$text-color  
+        position: absolute
+        box-shadow: 0 2px 5px rgba(0,0 ,0 ,0.2 ) 
+        transition: .5s  
+
+        &::before
+            top:-12px
+            content: ''
+            position: absolute
+            width: 30px
+            height: 5px
+            background: variables.$text-color  
+            box-shadow: 0 2px 5px rgba(0,0 ,0 ,0.2 ) 
+            transition: .5s   
+        &::after
+            top:12px
+            content: ''
+            position: absolute
+            width: 30px
+            height: 5px
+            background: variables.$text-color  
+            box-shadow: 0 2px 5px rgba(0,0 ,0 ,0.2 ) 
+            transition: .5s
+
+.list   
+    @include mixins.flex-column
+    flex-wrap: nowrap
+    justify-content: center
+    align-items: center
+    color: variables.$text-color
+    font-size: 2.5rem
+    font-family: variables.$font-stack
+    padding: 100px 0 0
+    text-align: center
+    
+    
+    
+    
+    .listItems
+        padding: 0
+        li
+            padding: 50px
+            cursor: pointer
+            
+                
+                    
+                   
+
+
+.iconActive .hamburguer
+    background: transparent
+
+   
+    &::after
+        background: white
+        top: 0
+        transform: rotate(225deg)
+    &::before
+        background: white
+        top: 0
+        transform: rotate(135deg)                        
+
+.menu.menuOpen
+    position: absolute 
+    top: 0
+    left: 0%
+    width: 100vw
+    height: 100vh 
+    background: #302f31
+    
+      
+
+.menu.menuClosed
+    display: none
+    width: 0px     

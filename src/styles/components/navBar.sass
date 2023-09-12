@@ -1,0 +1,45 @@
+@use '../variables'
+@use '../mixins'
+
+#navBar
+    @include mixins.flex-center
+
+    
+    h1
+        font-family: variables.$font-stack
+        font-size: 2.5rem
+        background: variables.$text-color
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+        @include mixins.laptop
+            font-size: 1.7rem
+        @include mixins.tablet
+            font-size: 2.2rem   
+
+        
+        
+
+    .ul__navBar
+        @include mixins.ul-flex
+        li
+            font-size: 24px
+            @include mixins.laptop
+                font-size: 16px
+            @include mixins.tablet
+                display: none
+            
+            a
+            
+                cursor: pointer
+            :hover
+                color: variables.$icon-color
+
+        
+            
+
+        
+
+
+
+     
+        
