@@ -1,7 +1,8 @@
 import '../styles/components/MainContents.sass'
+import Avatar from "../src/img/Alecson.jpeg"
 const MainContents = () =>{
     return <div id='div-main'>
-            <img src='../src/img/alecson.jpeg' id="alecson"></img>
+            <img src={Avatar} id="alecson"></img>
             <div id='div-textos'>
                 <h3 id='h3-main'>Sobre Min</h3>
                 <p id='p-main'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
