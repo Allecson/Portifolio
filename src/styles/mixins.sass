@@ -1,3 +1,5 @@
+@use 'variables'
+
 @mixin flex-center
     display: flex
     justify-content: space-between
@@ -8,15 +10,27 @@
     display: flex
     gap: 3rem
 
-@mixin card-grid
-    display: grid
-    grid-template-columns:1fr 1fr 1fr
-    margin: 0 auto
-    justify-items: center
+@mixin card-flex
+    display: flex
+    margin: 2rem auto
+    justify-content: center
+    align-content: center
+    flex-wrap: wrap
 @mixin flex-column
     display: flex
     flex-direction: column
     
+@mixin flex-footer
+    display: flex
+    justify-content: center
+    align-items: center
+    gap: 1rem
+
+@mixin a-hover
+    cursor: pointer
+    &:hover
+        color: variables.$icon-color    
+        
 
 @mixin laptop
     @media( max-width: 1024px )
