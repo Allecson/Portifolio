@@ -1,5 +1,5 @@
 {
-  "homepage" : "https://github.com/Allecson.github.io/Portifolio",
+  "homepage": "https://github.com/Allecson.github.io/Portifolio",
   "name": "portifolio",
   "private": true,
   "version": "0.0.0",
@@ -11,12 +11,12 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-    
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.10.1"
+    "react-icons": "^4.10.1",
+    "react-scroll": "^1.8.9"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

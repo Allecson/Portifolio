@@ -6,6 +6,7 @@ import Projetos from './components/Projetos'
 import Contacts from './components/Contacts'
 
 import './styles/components/app.sass'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   
@@ -17,6 +18,8 @@ function App() {
         <Languages />
         <Projetos />
         <Contacts /> 
+        <ScrollToTop />
+      
     </>
   )
 }
