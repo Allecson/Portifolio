@@ -1,0 +1,35 @@
+@use '../variables'
+@use '../mixins'
+
+
+    
+#a-scroll
+    background: variables.$scroll-color
+    padding: 15px
+    border-radius: 2px
+    position: fixed
+    bottom: 1%
+    right: 1%
+    cursor: pointer  
+    
+    span
+        color: white
+        font-weight: bold       
+
+@keyframes fadeIn
+  from
+    opacity: 0
+  to
+    opacity: 1
+
+.fade-enter
+  animation: fadeIn 0.8s ease forwards
+
+@keyframes fadeOut
+  from
+    opacity: 1
+  to
+    opacity: 0
+
+.fade-exit
+  animation: fadeOut 0.3s ease forwards
