@@ -54,7 +54,9 @@
             .texts-project
                 transform: translateY(0) 
             .imgs  
-                transform: scale(1.1)  
+                transform: scale(1.1) 
+                filter: blur(4px)
+                
         .texts-project
             position: absolute
             bottom: 0
@@ -74,12 +76,20 @@
                     font-size: 2rem
                 @include mixins.tablet
                     font-size: 1.5rem
+                @include mixins.mobile
+                    font-size: 1rem
+                    
+
             .p-texts-project
                 font-size: 1.6rem
                 margin: .3rem 0 1rem  
                 @include mixins.tablet
                     font-size: 1rem
                     margin: .1rem 0 .3rem  
+                @include mixins.mobile
+                    font-size: .7rem
+                    margin: .05rem 0 .1rem  
+                    
             .a-texts-project
                 display: inline-flex
                 justify-content: center
