@@ -19,7 +19,13 @@
 @mixin flex-column
     display: flex
     flex-direction: column
-    
+
+@mixin flex-column-img
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+            
 @mixin flex-footer
     display: flex
     justify-content: center
@@ -45,6 +51,13 @@
         @content                  
         
 @mixin icons
-    @media ( max-width: 650px  )
+    @media ( max-width: 650px )
         @content    
-        
+
+@mixin projects
+    @media (max-width: 1210px)
+        @content
+@mixin projects-mobile
+    @media (max-width: 690px)
+        @content
+            
