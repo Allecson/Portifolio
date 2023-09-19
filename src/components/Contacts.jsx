@@ -16,7 +16,7 @@ const Contacts = () =>{
     </a>
     ))}
             <ul class='ul__footer'>
-                <li><a href='#alecsonBoavq'>Home</a></li>
+                <li><a href='#alecsonBoav'>Home</a></li>
                 <li><a href='#div-main'>Sobre</a></li>
                 <li><a href='#projects'>Projetos</a></li>
             </ul>
