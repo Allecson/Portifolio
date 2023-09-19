@@ -10,7 +10,7 @@ import Dev6 from "../img/dev6.jpeg";
 
 const Projetos = () => {
   return (
-    <section className="projects">
+    <section className="projects" id='projects'>
       <h1 className="h1-projects">Minha Caminhada</h1>
       <div className="div-projects">
         <div className="div-img-texts-projects">

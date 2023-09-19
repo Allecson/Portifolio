@@ -14,8 +14,8 @@ const MenuMobile = () =>{
             <div className='list'>
                 <ul className='listItems'>
                     <li><a>Home</a></li>
-                    <li><a>Sobre</a></li>
-                    <li><a>Projetos</a></li>
+                    <li><a href="#div-main">Sobre</a></li>
+                    <li><a href="#projects">Projetos</a></li>
                 </ul>
             </div>
         </div> 

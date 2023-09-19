@@ -4,11 +4,11 @@ import MenuMobile from './menuMobile';
 const NavBar = () =>{
     return <header >
         <nav id="navBar">
-            <h1 class='h1__navBar'>Alecson Boaventura</h1>
+            <h1 class='h1__navBar'id='alecsonBoav'>Alecson Boaventura</h1>
             <ul class='ul__navBar'>
                 <li><a>Home</a></li>
-                <li><a>Sobre</a></li>
-                <li><a>Projetos</a></li>
+                <li><a href='#div-main'>Sobre</a></li>
+                <li><a href='#projects'>Projetos</a></li>
             </ul>
             <Icons />
             <MenuMobile />

@@ -16,9 +16,9 @@ const Contacts = () =>{
     </a>
     ))}
             <ul class='ul__footer'>
-                <li><a>Home</a></li>
-                <li><a>Sobre</a></li>
-                <li><a>Projetos</a></li>
+                <li><a href='#alecsonBoavq'>Home</a></li>
+                <li><a href='#div-main'>Sobre</a></li>
+                <li><a href='#projects'>Projetos</a></li>
             </ul>
             <div className='div-p-footer'><p className='p-footer'>Developed in 2023 by &copy;<span>Alecson</span></p></div>
     </div>
