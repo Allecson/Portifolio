@@ -18,7 +18,7 @@ const Projetos = () => {
           <div className="texts-project">
             <h2 className="h2-texts-project">Erro 404</h2>
             <p className="p-texts-project">
-              Uma página que mostra um erro padrão de 404com uso de HTML,CSS<br></br><span>(Veja completo abaixo)</span>
+              Uma página que mostra um erro padrão de 404. Com uso de HTML,CSS<br></br><span>(Veja completo abaixo)</span>
             </p>
             <a href="https://allecson.github.io/404-not-found/" className="a-texts-project" target="_blank">
               <BiLinkExternal />
@@ -30,7 +30,7 @@ const Projetos = () => {
           <div className="texts-project">
             <h2 className="h2-texts-project">Página Profissional</h2>
             <p className="p-texts-project">
-              Uma página que mostra as habilidades pessoais de uma profissional com uso de HTML,CSS e JavaScript<br></br><span>(Veja completo abaixo)</span>
+              Uma página que mostra as habilidades pessoais de uma profissional. Com uso de HTML,CSS e JavaScript<br></br><span>(Veja completo abaixo)</span>
             </p>
             <a href="https://allecson.github.io/interior-consultant-master/" target="_blank" className="a-texts-project">
               <BiLinkExternal />
